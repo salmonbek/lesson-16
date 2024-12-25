@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: #0f0f0f;
+}
+.container {
+  max-width: 1400px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 15px 0px 16px 0px;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+/*  */
+.header-content-h2 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 53.82px;
+}
+.header-content-a a {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+body {
+  font-family: "Stick No Bills", serif;
+}
+
+.hero1 {
+  background-image: url("../images/back\ img1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  block-size: cover;
+  padding: 169px 0px 154px 0px;
+}
+.hero1-box-content {
+  padding: 93px 30px;
+  border: 4px solid #ffffff;
+  text-align: center;
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero1-box-content h1 {
+  font-family: "Stick No Bills", serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 95.69px;
+  color: #ffffff;
+}
+.hero1-box-content p {
+  font-family: PT Sans;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.47px;
+  color: #ffffff;
+}
+p {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+.hero1-box .hero1-paragraph {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 730px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+}
+.hero2-content {
+  display: flex;
+}
+.hero2-card {
+  display: flex;
+  gap: 20px;
+}
+.watch {
+  padding-top: -80px;
+  text-align: center;
+  background-color: #191b1c;
+  width: 250px;
+  height: 280px;
+}
+.watch img {
+  margin-top: 50px;
+}
+.hero2-content-right {
+  background-image: url("../images/back\ img2.png");
+  width: 960px;
+  background-repeat: no-repeat;
+  block-size: cover;
+  padding: 484px 274px 100px 274px;
+}
+.hero2-content-left {
+  background: #000000;
+  padding: 150px 73px 50px 73px;
+}
+.hero2-h1 {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47.99px;
+  color: #ffffff;
+  padding-bottom: 80px;
+
+  text-align: center;
+}
+.hero2-right-h2 h2 {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 50px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.hero2-right-button {
+  text-align: center;
+}
+.watch-prices h2 {
+  font-family: Playfair Display;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.99px;
+  margin-top: 69px;
+  color: #ffffff;
+}
+.hero3-content-left {
+  background-image: url("../images/back\ img3.png");
+  background-repeat: no-repeat;
+  block-size: cover;
+  width: 4960px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero3-content {
+  display: flex;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero3-content-right {
+  background: #000000;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero3-content-right h1 {
+  color: #ffffff;
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 47.99px;
+  padding-bottom: 80px;
+  padding-top: 100px;
+}
+.hero3-content-right p {
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  padding-bottom: 61px;
+}
+.hero3-content-right button {
+  font-family: PT Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.29px;
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.collection-card {
+  display: flex;
+  gap: 23px;
+}
+
+.card-items-conent {
+  padding: 53px 23px;
+  background: #191b1c;
+}
+
+.price h2 {
+  margin-top: 25px;
+  color: #ffffff;
+}
+
+.price p {
+  margin-top: 10px;
+  color: #d0d0d0;
+}
+
+.hero4 {
+  background: #000000;
+  padding: 120px 0px 150px 0px;
+}
+
+.collection-card {
+  margin-bottom: 23px;
+}
+
+.collecrion-titile {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 47.99px;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.line {
+  background-color: white;
+  width: 120px;
+  height: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+}
+
+.card-items-conent:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px white;
+}
